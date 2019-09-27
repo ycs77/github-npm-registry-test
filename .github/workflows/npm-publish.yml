@@ -30,6 +30,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@ycs77'
       - run: npm config set //registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN
-      - run: npm publish --dry-run
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
