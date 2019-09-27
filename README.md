@@ -4,20 +4,18 @@ The Lucas's test package on GitHub NPM registry.
 
 ## Usage
 
-Run install:
+Install package (Need auth token):
 
 ```
-yarn install
+npm install @ycs77/github-npm-registry-test --registry=https://npm.pkg.github.com/
 ```
 
-Run test:
+Usage:
 
 ```
-yarn test
-```
+const hello = require('@ycs77/github-npm-registry-test')
 
-Deploy:
+console.log(hello)
 
-```
-yarn deploy
+// Hello world!
 ```
