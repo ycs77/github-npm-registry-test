@@ -72,3 +72,6 @@ typings/
 # gatsby files
 .cache/
 public
+
+# custom
+remark.md
