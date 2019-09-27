@@ -3,7 +3,19 @@
   "version": "1.0.0",
   "description": "The Lucas's test package on GitHub NPM registry.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "author": "Lucas Yang <yangchenshin77@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url": "https://github.com/ycs77/github-npm-registry-test.git"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
 }
