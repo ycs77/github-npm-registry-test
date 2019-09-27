@@ -1,6 +1,6 @@
 {
   "name": "@ycs77/github-npm-registry-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Lucas's test package on GitHub NPM registry.",
   "main": "index.js",
   "scripts": {
